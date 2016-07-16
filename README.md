@@ -22,12 +22,20 @@ Direct download:
 
 http://www.java2s.com/Code/JarDownload/javax.json/javax.json-api-1.0.jar.zip 
 
-- Data structures used, with reasons:
+
+Data structures used, with reasons:
+
 •	HashMap: it provides constant-time performance – O(1) – for the basic operations needed.
+
 •	HashSet: to store graph edges that fail in the time check (60-seconds window) before removing them from the graph.
+
 •	PriorityQueue: it has the best balance between time and space complexity. While the “Heap Sort” algorithm takes O(n log(n)) time complexity, it provides O(1) space complexity, which is very valuable in handling large amounts of data. Furthermore, my code iterates through only half of the items stored in the PriorityQueue object to find the median.
 
+
 Implementation Notes:
+
 - I created my own implementation of the Graph data structure, utilizing existing Java interfaces. This is undirected graph as the edge “userX <-> userY” is the same as the edge “userY <-> userX”.
+
 - The code ignores blank lines within the input file, if any.
+
 - I wrote a simple method to truncate the median, rather than calling external methods.
