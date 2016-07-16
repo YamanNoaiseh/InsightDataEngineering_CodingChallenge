@@ -9,13 +9,17 @@ Implementation Tools:
 - Library 1: [ javax.json-1.0.jar ]
 http://www.java2s.com/Code/Jar/j/Downloadjavaxjson10jar.htm 
 
-Direct download:
+Direct download: 
+
 http://www.java2s.com/Code/JarDownload/javax.json/javax.json-1.0.jar.zip 
+
 This library is indirectly used as it provides services to the other library.
 
 - Library 2: [javax.json-api-1.0.jar ]
-http://www.java2s.com/Code/Jar/j/Downloadjavaxjsonapi10jar.htm
-Direct download:
+http://www.java2s.com/Code/Jar/j/Downloadjavaxjsonapi10jar.htm 
+
+Direct download: 
+
 http://www.java2s.com/Code/JarDownload/javax.json/javax.json-api-1.0.jar.zip 
 
 - Data structures used, with reasons:
