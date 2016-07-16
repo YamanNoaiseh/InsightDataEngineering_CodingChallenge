@@ -26,7 +26,8 @@ Direct download:
 http://www.java2s.com/Code/JarDownload/javax.json/javax.json-api-1.0.jar.zip 
 
 
-Data structures used, with reasons:
+
+Data structures used:
 
 •	HashMap: it provides constant-time performance – O(1) – for the basic operations needed.
 
