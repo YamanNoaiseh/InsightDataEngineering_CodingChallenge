@@ -4,13 +4,15 @@ Author: Yaman Noaiseh
 Implementation Tools:
 - Tools used: Java SE 7 on Eclipse MARS.2
 - External libraries (for handling JSON files): I used TWO Java libraries, native to the Java ecosystem. Both libraries exist in the Java Enterprise Edition.
-•	Library 1: [ javax.json-1.0.jar ]
+- 
+- Library 1: [ javax.json-1.0.jar ]
 http://www.java2s.com/Code/Jar/j/Downloadjavaxjson10jar.htm 
+
 Direct download:
 http://www.java2s.com/Code/JarDownload/javax.json/javax.json-1.0.jar.zip 
 This library is indirectly used as it provides services to the other library.
 
-•	Library 2: [javax.json-api-1.0.jar ]
+- Library 2: [javax.json-api-1.0.jar ]
 http://www.java2s.com/Code/Jar/j/Downloadjavaxjsonapi10jar.htm
 Direct download:
 http://www.java2s.com/Code/JarDownload/javax.json/javax.json-api-1.0.jar.zip 
