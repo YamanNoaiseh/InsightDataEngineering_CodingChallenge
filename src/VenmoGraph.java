@@ -61,8 +61,8 @@ public class VenmoGraph {
 	 * @param graph object to build
 	 */
 	public static void processInput(VenmoGraph graph) {
-		String inputFile = ".\\venmo_input\\venmo-trans.txt";
-		String outputFile = ".\\venmo_output\\output.txt";
+		String inputFile = "./../venmo_input/venmo-trans.txt";
+		String outputFile = "./../venmo_output/output.txt";
 		SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'");
 		int bufferSize = 8*1024;
 		try (BufferedReader bufferedReader = new BufferedReader(new FileReader(inputFile), bufferSize);
