@@ -44,7 +44,7 @@ Implementation Notes:
 
 - I wrote a simple method to truncate the median, rather than calling external methods.
 
->
+> 
 > ORIGINAL PROBLEM SPECIFICATIONS
 ============================================================
 
