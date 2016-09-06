@@ -1,4 +1,11 @@
-> A code for Insight Data Engineering Fellowship program application.
+> 
+> ORIGINAL PROBLEM SPECIFICATIONS
+> https://github.com/YamanNoaiseh/InsightDataEngineering_CodingChallenge/tree/7418f6838e213e42d33ec287f22f1a0d701b9ca0
+
+
+
+
+A code for Insight Data Engineering Fellowship program application.
 
 
 Author: Yaman Noaiseh
@@ -43,10 +50,3 @@ Implementation Notes:
 - The code ignores blank lines within the input file, if any.
 
 - I wrote a simple method to truncate the median, rather than calling external methods.
- 
-  
-
-> 
-> ORIGINAL PROBLEM SPECIFICATIONS
-> https://github.com/YamanNoaiseh/InsightDataEngineering_CodingChallenge/tree/7418f6838e213e42d33ec287f22f1a0d701b9ca0
-
