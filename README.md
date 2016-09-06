@@ -43,10 +43,10 @@ Implementation Notes:
 - The code ignores blank lines within the input file, if any.
 
 - I wrote a simple method to truncate the median, rather than calling external methods.
+ 
+  
 
 > 
 > ORIGINAL PROBLEM SPECIFICATIONS
-============================================================
-
-https://github.com/YamanNoaiseh/InsightDataEngineering_CodingChallenge/tree/7418f6838e213e42d33ec287f22f1a0d701b9ca0
+> https://github.com/YamanNoaiseh/InsightDataEngineering_CodingChallenge/tree/7418f6838e213e42d33ec287f22f1a0d701b9ca0
 
