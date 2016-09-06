@@ -1,4 +1,4 @@
-A code for Insight Data Engineering Fellowship program application.
+> A code for Insight Data Engineering Fellowship program application.
 
 
 Author: Yaman Noaiseh
@@ -44,8 +44,7 @@ Implementation Notes:
 
 - I wrote a simple method to truncate the median, rather than calling external methods.
 
-
-
+>
 > ORIGINAL PROBLEM SPECIFICATIONS
 ============================================================
 
