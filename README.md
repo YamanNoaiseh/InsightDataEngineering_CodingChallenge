@@ -37,7 +37,8 @@ Data structures used:
 
 •	HashSet: to store graph edges that fail in the time check (60-seconds window) before removing them from the graph.
 
-•	PriorityQueue: it has the best balance between time and space complexity. While the “Heap Sort” algorithm takes O(n log(n)) time complexity, it provides O(1) space complexity, which is very valuable in handling large amounts of data. Furthermore, my code iterates through only half of the items stored in the PriorityQueue object to find the median.
+•	PriorityQueue: it has the best balance between time and space complexity. While the “Heap Sort” algorithm takes O(n log(n)) time complexity, it provides O(1) space complexity, which is very valuable in handling large amounts of data.
+My code iterates through half of the items stored in the PriorityQueue object to find the median. [To do; improve the performance by implementing the "Running Median" algorithm using two heaps.]
 
 
 Implementation Notes:
