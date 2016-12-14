@@ -5,10 +5,6 @@
 > ====================================================================================================================
 
 
-
-A code for Insight Data Engineering Fellowship program application.
-
-
 Author: Yaman Noaiseh
 
 
