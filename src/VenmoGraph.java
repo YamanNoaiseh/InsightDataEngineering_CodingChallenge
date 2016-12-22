@@ -223,6 +223,8 @@ public class VenmoGraph {
 	 * 
 	 * @return the current median degree
 	 */
+	// To be improved later; Use min and max heaps and implement the running median algorithm
+	// to get the current median
 	private double getUpdatedMedian() {
 		PriorityQueue<Integer> queue = new PriorityQueue<Integer>(vertices.values());
 		int halfSize = queue.size() / 2;
