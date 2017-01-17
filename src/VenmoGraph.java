@@ -96,8 +96,6 @@ public class VenmoGraph {
 							}
 							// edges that should be evicted will be first stored in this set
 							Set<Payment> edgesToEvict = new HashSet<Payment>();
-							// Handled fail-fast iterator, because I do not want a fail-safe iterator that
-							// keeps a copy of the data structure, which implies huge overhead for large input.
 							for (Payment key: graph.edges.keySet()) {
 								if (timeDifference(graph.maxTime, graph.edges.get(key)) >= 60) {
 									edgesToEvict.add(key);
