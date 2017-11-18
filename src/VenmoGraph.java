@@ -306,7 +306,7 @@ class Payment {
 	
 	@Override
 	public int hashCode() {
-		return user1.hashCode() + user2.hashCode();
+		return user1.hashCode() ^ user2.hashCode();
 	}
 	
 }
